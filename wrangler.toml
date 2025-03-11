@@ -1,0 +1,10 @@
+# 项目基础配置
+name = "newsnow"  # 自定义项目名称（英文无空格）
+compatibility_date = "2024-01-01"
+main = "dist/index.js"
+
+# 数据库绑定配置
+[[d1_databases]]
+binding = "NEWSNOW_DB"       # 代码中使用的变量名（固定不变）
+database_name = "newsnow_db" # 替换为你的数据库名称（步骤1获取）
+database_id = "439e8ab3-593b-4532-9afa-495a5cb4d71f" # 替换为你的数据库ID（步骤1获取）
